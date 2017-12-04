@@ -1,0 +1,2122 @@
+The system is: Darwin - 17.2.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is AppleClang, found in "/Users/niko/Desktop/ips-project/build/CMakeFiles/3.9.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is AppleClang, found in "/Users/niko/Desktop/ips-project/build/CMakeFiles/3.9.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a9711/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a9711.dir/build.make CMakeFiles/cmTC_a9711.dir/build
+Building C object CMakeFiles/cmTC_a9711.dir/testCCompiler.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_a9711.dir/testCCompiler.c.o   -c /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_a9711
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9711.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a9711.dir/testCCompiler.c.o  -o cmTC_a9711 
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e12bc/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e12bc.dir/build.make CMakeFiles/cmTC_e12bc.dir/build
+Building C object CMakeFiles/cmTC_e12bc.dir/CMakeCCompilerABI.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_e12bc.dir/CMakeCCompilerABI.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_e12bc
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e12bc.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_e12bc.dir/CMakeCCompilerABI.c.o  -o cmTC_e12bc 
+Apple LLVM version 9.0.0 (clang-900.0.38)
+Target: x86_64-apple-darwin17.2.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -o cmTC_e12bc -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_e12bc.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-302.3.1
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_e12bc/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e12bc.dir/build.make CMakeFiles/cmTC_e12bc.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_e12bc.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_e12bc.dir/CMakeCCompilerABI.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_e12bc]
+  ignore line: [/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e12bc.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_e12bc.dir/CMakeCCompilerABI.c.o  -o cmTC_e12bc ]
+  ignore line: [Apple LLVM version 9.0.0 (clang-900.0.38)]
+  ignore line: [Target: x86_64-apple-darwin17.2.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -o cmTC_e12bc -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_e12bc.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.13.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_e12bc] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_e12bc.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks]
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e9dc6/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e9dc6.dir/build.make CMakeFiles/cmTC_e9dc6.dir/build
+Building C object CMakeFiles/cmTC_e9dc6.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -std=c11 -o CMakeFiles/cmTC_e9dc6.dir/feature_tests.c.o   -c /Users/niko/Desktop/ips-project/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e9dc6
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9dc6.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e9dc6.dir/feature_tests.c.o  -o cmTC_e9dc6 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ae66c/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ae66c.dir/build.make CMakeFiles/cmTC_ae66c.dir/build
+Building C object CMakeFiles/cmTC_ae66c.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -std=c99 -o CMakeFiles/cmTC_ae66c.dir/feature_tests.c.o   -c /Users/niko/Desktop/ips-project/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ae66c
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae66c.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ae66c.dir/feature_tests.c.o  -o cmTC_ae66c 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7f64d/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7f64d.dir/build.make CMakeFiles/cmTC_7f64d.dir/build
+Building C object CMakeFiles/cmTC_7f64d.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -std=c90 -o CMakeFiles/cmTC_7f64d.dir/feature_tests.c.o   -c /Users/niko/Desktop/ips-project/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_7f64d
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f64d.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7f64d.dir/feature_tests.c.o  -o cmTC_7f64d 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_55549/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_55549.dir/build.make CMakeFiles/cmTC_55549.dir/build
+Building CXX object CMakeFiles/cmTC_55549.dir/testCXXCompiler.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_55549.dir/testCXXCompiler.cxx.o -c /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_55549
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55549.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_55549.dir/testCXXCompiler.cxx.o  -o cmTC_55549 
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ff04f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ff04f.dir/build.make CMakeFiles/cmTC_ff04f.dir/build
+Building CXX object CMakeFiles/cmTC_ff04f.dir/CMakeCXXCompilerABI.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_ff04f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_ff04f
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff04f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_ff04f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ff04f 
+Apple LLVM version 9.0.0 (clang-900.0.38)
+Target: x86_64-apple-darwin17.2.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -o cmTC_ff04f -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_ff04f.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-302.3.1
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_ff04f/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ff04f.dir/build.make CMakeFiles/cmTC_ff04f.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_ff04f.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_ff04f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_ff04f]
+  ignore line: [/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff04f.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_ff04f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ff04f ]
+  ignore line: [Apple LLVM version 9.0.0 (clang-900.0.38)]
+  ignore line: [Target: x86_64-apple-darwin17.2.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -o cmTC_ff04f -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_ff04f.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.13.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_ff04f] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_ff04f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks]
+  implicit libs: [c++]
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks]
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_99b2f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_99b2f.dir/build.make CMakeFiles/cmTC_99b2f.dir/build
+Building CXX object CMakeFiles/cmTC_99b2f.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -std=c++1z -o CMakeFiles/cmTC_99b2f.dir/feature_tests.cxx.o -c /Users/niko/Desktop/ips-project/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_99b2f
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99b2f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_99b2f.dir/feature_tests.cxx.o  -o cmTC_99b2f 
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_31528/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_31528.dir/build.make CMakeFiles/cmTC_31528.dir/build
+Building CXX object CMakeFiles/cmTC_31528.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -std=c++14 -o CMakeFiles/cmTC_31528.dir/feature_tests.cxx.o -c /Users/niko/Desktop/ips-project/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_31528
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31528.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_31528.dir/feature_tests.cxx.o  -o cmTC_31528 
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_249aa/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_249aa.dir/build.make CMakeFiles/cmTC_249aa.dir/build
+Building CXX object CMakeFiles/cmTC_249aa.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -std=c++11 -o CMakeFiles/cmTC_249aa.dir/feature_tests.cxx.o -c /Users/niko/Desktop/ips-project/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_249aa
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_249aa.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_249aa.dir/feature_tests.cxx.o  -o cmTC_249aa 
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9209e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9209e.dir/build.make CMakeFiles/cmTC_9209e.dir/build
+Building CXX object CMakeFiles/cmTC_9209e.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -std=c++98 -o CMakeFiles/cmTC_9209e.dir/feature_tests.cxx.o -c /Users/niko/Desktop/ips-project/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_9209e
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9209e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9209e.dir/feature_tests.cxx.o  -o cmTC_9209e 
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Performing C SOURCE FILE Test HAVE_MMX succeeded with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1c417/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1c417.dir/build.make CMakeFiles/cmTC_1c417.dir/build
+Building C object CMakeFiles/cmTC_1c417.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DHAVE_MMX -mmmx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_1c417.dir/src.c.o   -c /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1c417
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c417.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DHAVE_MMX -mmmx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1c417.dir/src.c.o  -o cmTC_1c417 
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <mmintrin.h>
+          #endif
+          #else
+          #include <mmintrin.h>
+          #endif
+          #ifndef __MMX__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_3DNOW succeeded with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6de22/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6de22.dir/build.make CMakeFiles/cmTC_6de22.dir/build
+Building C object CMakeFiles/cmTC_6de22.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DHAVE_3DNOW -m3dnow -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_6de22.dir/src.c.o   -c /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6de22
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6de22.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DHAVE_3DNOW -m3dnow -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6de22.dir/src.c.o  -o cmTC_6de22 
+
+Source file was:
+
+          #include <mm3dnow.h>
+          #ifndef __3dNOW__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) {
+            void *p = 0;
+            _m_prefetch(p);
+          }
+Performing C SOURCE FILE Test HAVE_SSE succeeded with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_75ce5/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_75ce5.dir/build.make CMakeFiles/cmTC_75ce5.dir/build
+Building C object CMakeFiles/cmTC_75ce5.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DHAVE_SSE -msse -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_75ce5.dir/src.c.o   -c /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_75ce5
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75ce5.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DHAVE_SSE -msse -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_75ce5.dir/src.c.o  -o cmTC_75ce5 
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <xmmintrin.h>
+          #endif
+          #else
+          #include <xmmintrin.h>
+          #endif
+          #ifndef __SSE__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_SSE2 succeeded with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3ce9f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3ce9f.dir/build.make CMakeFiles/cmTC_3ce9f.dir/build
+Building C object CMakeFiles/cmTC_3ce9f.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DHAVE_SSE2 -msse2 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_3ce9f.dir/src.c.o   -c /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3ce9f
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ce9f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DHAVE_SSE2 -msse2 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3ce9f.dir/src.c.o  -o cmTC_3ce9f 
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <emmintrin.h>
+          #endif
+          #else
+          #include <emmintrin.h>
+          #endif
+          #ifndef __SSE2__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { }
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b8afc/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b8afc.dir/build.make CMakeFiles/cmTC_b8afc.dir/build
+Building C object CMakeFiles/cmTC_b8afc.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_b8afc.dir/CheckIncludeFile.c.o   -c /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b8afc
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8afc.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b8afc.dir/CheckIncludeFile.c.o  -o cmTC_b8afc 
+
+
+Determining if the include file stdio.h exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0dcfd/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0dcfd.dir/build.make CMakeFiles/cmTC_0dcfd.dir/build
+Building C object CMakeFiles/cmTC_0dcfd.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_0dcfd.dir/CheckIncludeFile.c.o   -c /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0dcfd
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0dcfd.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0dcfd.dir/CheckIncludeFile.c.o  -o cmTC_0dcfd 
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_52fda/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_52fda.dir/build.make CMakeFiles/cmTC_52fda.dir/build
+Building C object CMakeFiles/cmTC_52fda.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_52fda.dir/CheckIncludeFile.c.o   -c /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_52fda
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52fda.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_52fda.dir/CheckIncludeFile.c.o  -o cmTC_52fda 
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eed57/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_eed57.dir/build.make CMakeFiles/cmTC_eed57.dir/build
+Building C object CMakeFiles/cmTC_eed57.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_eed57.dir/CheckIncludeFile.c.o   -c /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_eed57
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eed57.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_eed57.dir/CheckIncludeFile.c.o  -o cmTC_eed57 
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_81ce5/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_81ce5.dir/build.make CMakeFiles/cmTC_81ce5.dir/build
+Building C object CMakeFiles/cmTC_81ce5.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_81ce5.dir/CheckIncludeFile.c.o   -c /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_81ce5
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81ce5.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_81ce5.dir/CheckIncludeFile.c.o  -o cmTC_81ce5 
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_67ba1/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_67ba1.dir/build.make CMakeFiles/cmTC_67ba1.dir/build
+Building C object CMakeFiles/cmTC_67ba1.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_67ba1.dir/CheckIncludeFile.c.o   -c /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_67ba1
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67ba1.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_67ba1.dir/CheckIncludeFile.c.o  -o cmTC_67ba1 
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_83991/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_83991.dir/build.make CMakeFiles/cmTC_83991.dir/build
+Building C object CMakeFiles/cmTC_83991.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_83991.dir/CheckIncludeFile.c.o   -c /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_83991
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83991.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_83991.dir/CheckIncludeFile.c.o  -o cmTC_83991 
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5f826/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_5f826.dir/build.make CMakeFiles/cmTC_5f826.dir/build
+Building C object CMakeFiles/cmTC_5f826.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_5f826.dir/CheckIncludeFile.c.o   -c /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_5f826
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f826.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5f826.dir/CheckIncludeFile.c.o  -o cmTC_5f826 
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1a39f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1a39f.dir/build.make CMakeFiles/cmTC_1a39f.dir/build
+Building C object CMakeFiles/cmTC_1a39f.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_1a39f.dir/CheckIncludeFile.c.o   -c /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1a39f
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a39f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1a39f.dir/CheckIncludeFile.c.o  -o cmTC_1a39f 
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c4626/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c4626.dir/build.make CMakeFiles/cmTC_c4626.dir/build
+Building C object CMakeFiles/cmTC_c4626.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_c4626.dir/CheckIncludeFile.c.o   -c /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c4626
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4626.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c4626.dir/CheckIncludeFile.c.o  -o cmTC_c4626 
+
+
+Determining if the include file ctype.h exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dc210/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_dc210.dir/build.make CMakeFiles/cmTC_dc210.dir/build
+Building C object CMakeFiles/cmTC_dc210.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_dc210.dir/CheckIncludeFile.c.o   -c /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_dc210
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc210.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_dc210.dir/CheckIncludeFile.c.o  -o cmTC_dc210 
+
+
+Determining if the include file math.h exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d08cf/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d08cf.dir/build.make CMakeFiles/cmTC_d08cf.dir/build
+Building C object CMakeFiles/cmTC_d08cf.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_d08cf.dir/CheckIncludeFile.c.o   -c /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d08cf
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d08cf.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d08cf.dir/CheckIncludeFile.c.o  -o cmTC_d08cf 
+
+
+Determining if the include file iconv.h exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_82a71/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_82a71.dir/build.make CMakeFiles/cmTC_82a71.dir/build
+Building C object CMakeFiles/cmTC_82a71.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_82a71.dir/CheckIncludeFile.c.o   -c /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_82a71
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82a71.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_82a71.dir/CheckIncludeFile.c.o  -o cmTC_82a71 
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a6134/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a6134.dir/build.make CMakeFiles/cmTC_a6134.dir/build
+Building C object CMakeFiles/cmTC_a6134.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_a6134.dir/CheckIncludeFile.c.o   -c /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a6134
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6134.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a6134.dir/CheckIncludeFile.c.o  -o cmTC_a6134 
+
+
+Determining if files dlfcn.h;stdint.h;stddef.h;inttypes.h;stdlib.h;strings.h;string.h;float.h exist passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a0ae5/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a0ae5.dir/build.make CMakeFiles/cmTC_a0ae5.dir/build
+Building C object CMakeFiles/cmTC_a0ae5.dir/CheckIncludeFiles.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_a0ae5.dir/CheckIncludeFiles.c.o   -c /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_a0ae5
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0ae5.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a0ae5.dir/CheckIncludeFiles.c.o  -o cmTC_a0ae5 
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0d71f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0d71f.dir/build.make CMakeFiles/cmTC_0d71f.dir/build
+Building C object CMakeFiles/cmTC_0d71f.dir/SIZEOF_SIZE_T.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_0d71f.dir/SIZEOF_SIZE_T.c.o   -c /Users/niko/Desktop/ips-project/build/CMakeFiles/CheckTypeSize/SIZEOF_SIZE_T.c
+Linking C executable cmTC_0d71f
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d71f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0d71f.dir/SIZEOF_SIZE_T.c.o  -o cmTC_0d71f 
+
+
+Determining if the M_PI exist passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d4b79/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d4b79.dir/build.make CMakeFiles/cmTC_d4b79.dir/build
+Building C object CMakeFiles/cmTC_d4b79.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_d4b79.dir/CheckSymbolExists.c.o   -c /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d4b79
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4b79.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d4b79.dir/CheckSymbolExists.c.o  -o cmTC_d4b79 
+
+File /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef M_PI
+  return ((int*)(&M_PI))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_MPROTECT succeeded with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a073d/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a073d.dir/build.make CMakeFiles/cmTC_a073d.dir/build
+Building C object CMakeFiles/cmTC_a073d.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DHAVE_MPROTECT -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_a073d.dir/src.c.o   -c /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a073d
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a073d.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DHAVE_MPROTECT -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a073d.dir/src.c.o  -o cmTC_a073d 
+
+Source file was:
+#include <sys/types.h>
+                             #include <sys/mman.h>
+                             int main() { }
+Determining if the function strtod exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_534ef/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_534ef.dir/build.make CMakeFiles/cmTC_534ef.dir/build
+Building C object CMakeFiles/cmTC_534ef.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=strtod -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_534ef.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_534ef
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_534ef.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=strtod -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_534ef.dir/CheckFunctionExists.c.o  -o cmTC_534ef 
+
+
+Determining if the function malloc exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_56d66/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_56d66.dir/build.make CMakeFiles/cmTC_56d66.dir/build
+Building C object CMakeFiles/cmTC_56d66.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=malloc -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_56d66.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'malloc' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS malloc
+                              ^
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: 'malloc' is a builtin with type 'void *(unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS malloc
+                              ^
+1 warning generated.
+Linking C executable cmTC_56d66
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56d66.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=malloc -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_56d66.dir/CheckFunctionExists.c.o  -o cmTC_56d66 
+
+
+Determining if the function calloc exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_294df/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_294df.dir/build.make CMakeFiles/cmTC_294df.dir/build
+Building C object CMakeFiles/cmTC_294df.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=calloc -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_294df.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'calloc' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS calloc
+                              ^
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: 'calloc' is a builtin with type 'void *(unsigned long, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS calloc
+                              ^
+1 warning generated.
+Linking C executable cmTC_294df
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_294df.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=calloc -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_294df.dir/CheckFunctionExists.c.o  -o cmTC_294df 
+
+
+Determining if the function realloc exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cc54e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_cc54e.dir/build.make CMakeFiles/cmTC_cc54e.dir/build
+Building C object CMakeFiles/cmTC_cc54e.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=realloc -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_cc54e.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'realloc' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS realloc
+                              ^
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: 'realloc' is a builtin with type 'void *(void *, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS realloc
+                              ^
+1 warning generated.
+Linking C executable cmTC_cc54e
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc54e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=realloc -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cc54e.dir/CheckFunctionExists.c.o  -o cmTC_cc54e 
+
+
+Determining if the function free exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_12235/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_12235.dir/build.make CMakeFiles/cmTC_12235.dir/build
+Building C object CMakeFiles/cmTC_12235.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=free -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_12235.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_12235
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12235.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=free -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_12235.dir/CheckFunctionExists.c.o  -o cmTC_12235 
+
+
+Determining if the function getenv exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8723d/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8723d.dir/build.make CMakeFiles/cmTC_8723d.dir/build
+Building C object CMakeFiles/cmTC_8723d.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=getenv -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_8723d.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8723d
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8723d.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=getenv -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8723d.dir/CheckFunctionExists.c.o  -o cmTC_8723d 
+
+
+Determining if the function setenv exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f7f8b/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f7f8b.dir/build.make CMakeFiles/cmTC_f7f8b.dir/build
+Building C object CMakeFiles/cmTC_f7f8b.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=setenv -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_f7f8b.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f7f8b
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7f8b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=setenv -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f7f8b.dir/CheckFunctionExists.c.o  -o cmTC_f7f8b 
+
+
+Determining if the function putenv exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_88ab0/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_88ab0.dir/build.make CMakeFiles/cmTC_88ab0.dir/build
+Building C object CMakeFiles/cmTC_88ab0.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=putenv -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_88ab0.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_88ab0
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88ab0.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=putenv -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_88ab0.dir/CheckFunctionExists.c.o  -o cmTC_88ab0 
+
+
+Determining if the function unsetenv exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c446f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c446f.dir/build.make CMakeFiles/cmTC_c446f.dir/build
+Building C object CMakeFiles/cmTC_c446f.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=unsetenv -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_c446f.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c446f
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c446f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=unsetenv -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c446f.dir/CheckFunctionExists.c.o  -o cmTC_c446f 
+
+
+Determining if the function qsort exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0d3ba/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0d3ba.dir/build.make CMakeFiles/cmTC_0d3ba.dir/build
+Building C object CMakeFiles/cmTC_0d3ba.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=qsort -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_0d3ba.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0d3ba
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d3ba.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=qsort -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0d3ba.dir/CheckFunctionExists.c.o  -o cmTC_0d3ba 
+
+
+Determining if the function abs exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fbd59/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_fbd59.dir/build.make CMakeFiles/cmTC_fbd59.dir/build
+Building C object CMakeFiles/cmTC_fbd59.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=abs -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_fbd59.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'abs' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS abs
+                              ^
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: 'abs' is a builtin with type 'int (int)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS abs
+                              ^
+1 warning generated.
+Linking C executable cmTC_fbd59
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbd59.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=abs -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fbd59.dir/CheckFunctionExists.c.o  -o cmTC_fbd59 
+
+
+Determining if the function bcopy exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_69d27/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_69d27.dir/build.make CMakeFiles/cmTC_69d27.dir/build
+Building C object CMakeFiles/cmTC_69d27.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=bcopy -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_69d27.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_69d27
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69d27.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=bcopy -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_69d27.dir/CheckFunctionExists.c.o  -o cmTC_69d27 
+
+
+Determining if the function memset exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f4592/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f4592.dir/build.make CMakeFiles/cmTC_f4592.dir/build
+Building C object CMakeFiles/cmTC_f4592.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=memset -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_f4592.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'memset' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memset
+                              ^
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: 'memset' is a builtin with type 'void *(void *, int, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memset
+                              ^
+1 warning generated.
+Linking C executable cmTC_f4592
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4592.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=memset -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f4592.dir/CheckFunctionExists.c.o  -o cmTC_f4592 
+
+
+Determining if the function memcpy exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1737f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1737f.dir/build.make CMakeFiles/cmTC_1737f.dir/build
+Building C object CMakeFiles/cmTC_1737f.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=memcpy -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_1737f.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'memcpy' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memcpy
+                              ^
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: 'memcpy' is a builtin with type 'void *(void *, const void *, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memcpy
+                              ^
+1 warning generated.
+Linking C executable cmTC_1737f
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1737f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=memcpy -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1737f.dir/CheckFunctionExists.c.o  -o cmTC_1737f 
+
+
+Determining if the function memmove exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_646d2/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_646d2.dir/build.make CMakeFiles/cmTC_646d2.dir/build
+Building C object CMakeFiles/cmTC_646d2.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=memmove -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_646d2.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'memmove' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memmove
+                              ^
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: 'memmove' is a builtin with type 'void *(void *, const void *, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memmove
+                              ^
+1 warning generated.
+Linking C executable cmTC_646d2
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_646d2.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=memmove -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_646d2.dir/CheckFunctionExists.c.o  -o cmTC_646d2 
+
+
+Determining if the function memcmp exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cd370/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_cd370.dir/build.make CMakeFiles/cmTC_cd370.dir/build
+Building C object CMakeFiles/cmTC_cd370.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=memcmp -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_cd370.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'memcmp' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memcmp
+                              ^
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: 'memcmp' is a builtin with type 'int (const void *, const void *, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memcmp
+                              ^
+1 warning generated.
+Linking C executable cmTC_cd370
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd370.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=memcmp -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cd370.dir/CheckFunctionExists.c.o  -o cmTC_cd370 
+
+
+Determining if the function strlen exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7de0b/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7de0b.dir/build.make CMakeFiles/cmTC_7de0b.dir/build
+Building C object CMakeFiles/cmTC_7de0b.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=strlen -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_7de0b.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strlen' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlen
+                              ^
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: 'strlen' is a builtin with type 'unsigned long (const char *)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlen
+                              ^
+1 warning generated.
+Linking C executable cmTC_7de0b
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7de0b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=strlen -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7de0b.dir/CheckFunctionExists.c.o  -o cmTC_7de0b 
+
+
+Determining if the function strlcpy exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_19214/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_19214.dir/build.make CMakeFiles/cmTC_19214.dir/build
+Building C object CMakeFiles/cmTC_19214.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=strlcpy -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_19214.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strlcpy' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlcpy
+                              ^
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: 'strlcpy' is a builtin with type 'unsigned long (char *, const char *, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlcpy
+                              ^
+1 warning generated.
+Linking C executable cmTC_19214
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19214.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=strlcpy -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_19214.dir/CheckFunctionExists.c.o  -o cmTC_19214 
+
+
+Determining if the function strlcat exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ac2b1/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ac2b1.dir/build.make CMakeFiles/cmTC_ac2b1.dir/build
+Building C object CMakeFiles/cmTC_ac2b1.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=strlcat -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_ac2b1.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strlcat' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlcat
+                              ^
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: 'strlcat' is a builtin with type 'unsigned long (char *, const char *, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlcat
+                              ^
+1 warning generated.
+Linking C executable cmTC_ac2b1
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac2b1.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=strlcat -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ac2b1.dir/CheckFunctionExists.c.o  -o cmTC_ac2b1 
+
+
+Determining if the function strdup exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_017e3/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_017e3.dir/build.make CMakeFiles/cmTC_017e3.dir/build
+Building C object CMakeFiles/cmTC_017e3.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=strdup -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_017e3.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strdup' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strdup
+                              ^
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: 'strdup' is a builtin with type 'char *(const char *)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strdup
+                              ^
+1 warning generated.
+Linking C executable cmTC_017e3
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_017e3.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=strdup -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_017e3.dir/CheckFunctionExists.c.o  -o cmTC_017e3 
+
+
+Determining if the function strchr exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_423ad/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_423ad.dir/build.make CMakeFiles/cmTC_423ad.dir/build
+Building C object CMakeFiles/cmTC_423ad.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=strchr -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_423ad.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strchr' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strchr
+                              ^
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: 'strchr' is a builtin with type 'char *(const char *, int)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strchr
+                              ^
+1 warning generated.
+Linking C executable cmTC_423ad
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_423ad.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=strchr -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_423ad.dir/CheckFunctionExists.c.o  -o cmTC_423ad 
+
+
+Determining if the function strrchr exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c2f28/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c2f28.dir/build.make CMakeFiles/cmTC_c2f28.dir/build
+Building C object CMakeFiles/cmTC_c2f28.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=strrchr -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_c2f28.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strrchr' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strrchr
+                              ^
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: 'strrchr' is a builtin with type 'char *(const char *, int)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strrchr
+                              ^
+1 warning generated.
+Linking C executable cmTC_c2f28
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2f28.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=strrchr -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c2f28.dir/CheckFunctionExists.c.o  -o cmTC_c2f28 
+
+
+Determining if the function strstr exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fa001/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_fa001.dir/build.make CMakeFiles/cmTC_fa001.dir/build
+Building C object CMakeFiles/cmTC_fa001.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=strstr -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_fa001.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strstr' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strstr
+                              ^
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: 'strstr' is a builtin with type 'char *(const char *, const char *)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strstr
+                              ^
+1 warning generated.
+Linking C executable cmTC_fa001
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa001.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=strstr -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fa001.dir/CheckFunctionExists.c.o  -o cmTC_fa001 
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ef57d/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ef57d.dir/build.make CMakeFiles/cmTC_ef57d.dir/build
+Building C object CMakeFiles/cmTC_ef57d.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=strtol -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_ef57d.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ef57d
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef57d.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=strtol -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ef57d.dir/CheckFunctionExists.c.o  -o cmTC_ef57d 
+
+
+Determining if the function strtoul exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_119a4/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_119a4.dir/build.make CMakeFiles/cmTC_119a4.dir/build
+Building C object CMakeFiles/cmTC_119a4.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=strtoul -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_119a4.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_119a4
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_119a4.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=strtoul -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_119a4.dir/CheckFunctionExists.c.o  -o cmTC_119a4 
+
+
+Determining if the function strtoll exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_224e7/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_224e7.dir/build.make CMakeFiles/cmTC_224e7.dir/build
+Building C object CMakeFiles/cmTC_224e7.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=strtoll -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_224e7.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_224e7
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_224e7.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=strtoll -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_224e7.dir/CheckFunctionExists.c.o  -o cmTC_224e7 
+
+
+Determining if the function strtoull exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bb047/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_bb047.dir/build.make CMakeFiles/cmTC_bb047.dir/build
+Building C object CMakeFiles/cmTC_bb047.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=strtoull -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_bb047.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bb047
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb047.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=strtoull -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_bb047.dir/CheckFunctionExists.c.o  -o cmTC_bb047 
+
+
+Determining if the function atoi exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3bf63/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3bf63.dir/build.make CMakeFiles/cmTC_3bf63.dir/build
+Building C object CMakeFiles/cmTC_3bf63.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=atoi -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_3bf63.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3bf63
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3bf63.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=atoi -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3bf63.dir/CheckFunctionExists.c.o  -o cmTC_3bf63 
+
+
+Determining if the function atof exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9c431/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9c431.dir/build.make CMakeFiles/cmTC_9c431.dir/build
+Building C object CMakeFiles/cmTC_9c431.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=atof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_9c431.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9c431
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c431.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=atof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9c431.dir/CheckFunctionExists.c.o  -o cmTC_9c431 
+
+
+Determining if the function strcmp exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4f696/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4f696.dir/build.make CMakeFiles/cmTC_4f696.dir/build
+Building C object CMakeFiles/cmTC_4f696.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=strcmp -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_4f696.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strcmp' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcmp
+                              ^
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: 'strcmp' is a builtin with type 'int (const char *, const char *)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcmp
+                              ^
+1 warning generated.
+Linking C executable cmTC_4f696
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f696.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=strcmp -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4f696.dir/CheckFunctionExists.c.o  -o cmTC_4f696 
+
+
+Determining if the function strncmp exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_22a06/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_22a06.dir/build.make CMakeFiles/cmTC_22a06.dir/build
+Building C object CMakeFiles/cmTC_22a06.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=strncmp -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_22a06.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strncmp' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strncmp
+                              ^
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: 'strncmp' is a builtin with type 'int (const char *, const char *, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strncmp
+                              ^
+1 warning generated.
+Linking C executable cmTC_22a06
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22a06.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=strncmp -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_22a06.dir/CheckFunctionExists.c.o  -o cmTC_22a06 
+
+
+Determining if the function strcasecmp exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a4c16/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a4c16.dir/build.make CMakeFiles/cmTC_a4c16.dir/build
+Building C object CMakeFiles/cmTC_a4c16.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=strcasecmp -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_a4c16.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strcasecmp' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcasecmp
+                              ^
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: 'strcasecmp' is a builtin with type 'int (const char *, const char *)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcasecmp
+                              ^
+1 warning generated.
+Linking C executable cmTC_a4c16
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4c16.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=strcasecmp -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a4c16.dir/CheckFunctionExists.c.o  -o cmTC_a4c16 
+
+
+Determining if the function strncasecmp exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6756f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6756f.dir/build.make CMakeFiles/cmTC_6756f.dir/build
+Building C object CMakeFiles/cmTC_6756f.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=strncasecmp -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_6756f.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strncasecmp' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strncasecmp
+                              ^
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: 'strncasecmp' is a builtin with type 'int (const char *, const char *, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strncasecmp
+                              ^
+1 warning generated.
+Linking C executable cmTC_6756f
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6756f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=strncasecmp -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6756f.dir/CheckFunctionExists.c.o  -o cmTC_6756f 
+
+
+Determining if the function sscanf exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_938f5/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_938f5.dir/build.make CMakeFiles/cmTC_938f5.dir/build
+Building C object CMakeFiles/cmTC_938f5.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=sscanf -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_938f5.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'sscanf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sscanf
+                              ^
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: 'sscanf' is a builtin with type 'int (const char *restrict, const char *restrict, ...)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sscanf
+                              ^
+1 warning generated.
+Linking C executable cmTC_938f5
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_938f5.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=sscanf -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_938f5.dir/CheckFunctionExists.c.o  -o cmTC_938f5 
+
+
+Determining if the function snprintf exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_93449/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_93449.dir/build.make CMakeFiles/cmTC_93449.dir/build
+Building C object CMakeFiles/cmTC_93449.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=snprintf -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_93449.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'snprintf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS snprintf
+                              ^
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: 'snprintf' is a builtin with type 'int (char *, unsigned long, const char *, ...)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS snprintf
+                              ^
+1 warning generated.
+Linking C executable cmTC_93449
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93449.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=snprintf -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_93449.dir/CheckFunctionExists.c.o  -o cmTC_93449 
+
+
+Determining if the function vsnprintf exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_707d8/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_707d8.dir/build.make CMakeFiles/cmTC_707d8.dir/build
+Building C object CMakeFiles/cmTC_707d8.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=vsnprintf -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_707d8.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'vsnprintf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS vsnprintf
+                              ^
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: 'vsnprintf' is a builtin with type 'int (char *, unsigned long, const char *, struct __va_list_tag *)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS vsnprintf
+                              ^
+1 warning generated.
+Linking C executable cmTC_707d8
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_707d8.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=vsnprintf -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_707d8.dir/CheckFunctionExists.c.o  -o cmTC_707d8 
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_95bef/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_95bef.dir/build.make CMakeFiles/cmTC_95bef.dir/build
+Building C object CMakeFiles/cmTC_95bef.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=fseeko -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_95bef.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_95bef
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95bef.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=fseeko -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_95bef.dir/CheckFunctionExists.c.o  -o cmTC_95bef 
+
+
+Determining if the function sigaction exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c3747/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c3747.dir/build.make CMakeFiles/cmTC_c3747.dir/build
+Building C object CMakeFiles/cmTC_c3747.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=sigaction -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_c3747.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c3747
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3747.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=sigaction -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c3747.dir/CheckFunctionExists.c.o  -o cmTC_c3747 
+
+
+Determining if the function setjmp exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0022a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0022a.dir/build.make CMakeFiles/cmTC_0022a.dir/build
+Building C object CMakeFiles/cmTC_0022a.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=setjmp -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_0022a.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: warning: declaration of built-in function 'setjmp' requires inclusion of the header <setjmp.h> [-Wbuiltin-requires-header]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS setjmp
+                              ^
+1 warning generated.
+Linking C executable cmTC_0022a
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0022a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=setjmp -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0022a.dir/CheckFunctionExists.c.o  -o cmTC_0022a 
+
+
+Determining if the function nanosleep exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_63cbb/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_63cbb.dir/build.make CMakeFiles/cmTC_63cbb.dir/build
+Building C object CMakeFiles/cmTC_63cbb.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=nanosleep -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_63cbb.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_63cbb
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63cbb.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=nanosleep -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_63cbb.dir/CheckFunctionExists.c.o  -o cmTC_63cbb 
+
+
+Determining if the function sysconf exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_742b4/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_742b4.dir/build.make CMakeFiles/cmTC_742b4.dir/build
+Building C object CMakeFiles/cmTC_742b4.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=sysconf -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_742b4.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_742b4
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_742b4.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=sysconf -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_742b4.dir/CheckFunctionExists.c.o  -o cmTC_742b4 
+
+
+Determining if the function sysctlbyname exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9ee98/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9ee98.dir/build.make CMakeFiles/cmTC_9ee98.dir/build
+Building C object CMakeFiles/cmTC_9ee98.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=sysctlbyname -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_9ee98.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9ee98
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ee98.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=sysctlbyname -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9ee98.dir/CheckFunctionExists.c.o  -o cmTC_9ee98 
+
+
+Determining if the function pow exists in the m passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_00c47/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_00c47.dir/build.make CMakeFiles/cmTC_00c47.dir/build
+Building C object CMakeFiles/cmTC_00c47.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=pow -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_00c47.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'pow' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: 'pow' is a builtin with type 'double (double, double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+1 warning generated.
+Linking C executable cmTC_00c47
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00c47.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=pow -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_00c47.dir/CheckFunctionExists.c.o  -o cmTC_00c47 -lm 
+
+
+Determining if the function atan exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_470ed/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_470ed.dir/build.make CMakeFiles/cmTC_470ed.dir/build
+Building C object CMakeFiles/cmTC_470ed.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=atan -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_470ed.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'atan' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS atan
+                              ^
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: 'atan' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS atan
+                              ^
+1 warning generated.
+Linking C executable cmTC_470ed
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_470ed.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=atan -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_470ed.dir/CheckFunctionExists.c.o  -o cmTC_470ed -lm 
+
+
+Determining if the function atan2 exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b6c89/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b6c89.dir/build.make CMakeFiles/cmTC_b6c89.dir/build
+Building C object CMakeFiles/cmTC_b6c89.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=atan2 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_b6c89.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'atan2' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS atan2
+                              ^
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: 'atan2' is a builtin with type 'double (double, double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS atan2
+                              ^
+1 warning generated.
+Linking C executable cmTC_b6c89
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6c89.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=atan2 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b6c89.dir/CheckFunctionExists.c.o  -o cmTC_b6c89 -lm 
+
+
+Determining if the function ceil exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0de11/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0de11.dir/build.make CMakeFiles/cmTC_0de11.dir/build
+Building C object CMakeFiles/cmTC_0de11.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=ceil -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_0de11.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'ceil' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS ceil
+                              ^
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: 'ceil' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS ceil
+                              ^
+1 warning generated.
+Linking C executable cmTC_0de11
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0de11.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=ceil -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0de11.dir/CheckFunctionExists.c.o  -o cmTC_0de11 -lm 
+
+
+Determining if the function copysign exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_be851/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_be851.dir/build.make CMakeFiles/cmTC_be851.dir/build
+Building C object CMakeFiles/cmTC_be851.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=copysign -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_be851.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'copysign' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS copysign
+                              ^
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: 'copysign' is a builtin with type 'double (double, double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS copysign
+                              ^
+1 warning generated.
+Linking C executable cmTC_be851
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be851.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=copysign -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_be851.dir/CheckFunctionExists.c.o  -o cmTC_be851 -lm 
+
+
+Determining if the function cos exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_44ef3/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_44ef3.dir/build.make CMakeFiles/cmTC_44ef3.dir/build
+Building C object CMakeFiles/cmTC_44ef3.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=cos -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_44ef3.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'cos' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS cos
+                              ^
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: 'cos' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS cos
+                              ^
+1 warning generated.
+Linking C executable cmTC_44ef3
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44ef3.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=cos -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_44ef3.dir/CheckFunctionExists.c.o  -o cmTC_44ef3 -lm 
+
+
+Determining if the function cosf exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_624b7/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_624b7.dir/build.make CMakeFiles/cmTC_624b7.dir/build
+Building C object CMakeFiles/cmTC_624b7.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=cosf -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_624b7.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'cosf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS cosf
+                              ^
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: 'cosf' is a builtin with type 'float (float)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS cosf
+                              ^
+1 warning generated.
+Linking C executable cmTC_624b7
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_624b7.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=cosf -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_624b7.dir/CheckFunctionExists.c.o  -o cmTC_624b7 -lm 
+
+
+Determining if the function fabs exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_96dd4/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_96dd4.dir/build.make CMakeFiles/cmTC_96dd4.dir/build
+Building C object CMakeFiles/cmTC_96dd4.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=fabs -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_96dd4.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'fabs' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS fabs
+                              ^
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: 'fabs' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS fabs
+                              ^
+1 warning generated.
+Linking C executable cmTC_96dd4
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96dd4.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=fabs -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_96dd4.dir/CheckFunctionExists.c.o  -o cmTC_96dd4 -lm 
+
+
+Determining if the function floor exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ea335/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ea335.dir/build.make CMakeFiles/cmTC_ea335.dir/build
+Building C object CMakeFiles/cmTC_ea335.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=floor -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_ea335.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'floor' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS floor
+                              ^
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: 'floor' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS floor
+                              ^
+1 warning generated.
+Linking C executable cmTC_ea335
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea335.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=floor -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ea335.dir/CheckFunctionExists.c.o  -o cmTC_ea335 -lm 
+
+
+Determining if the function log exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_50e27/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_50e27.dir/build.make CMakeFiles/cmTC_50e27.dir/build
+Building C object CMakeFiles/cmTC_50e27.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=log -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_50e27.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'log' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS log
+                              ^
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: 'log' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS log
+                              ^
+1 warning generated.
+Linking C executable cmTC_50e27
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50e27.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=log -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_50e27.dir/CheckFunctionExists.c.o  -o cmTC_50e27 -lm 
+
+
+Determining if the function pow exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7d0a3/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7d0a3.dir/build.make CMakeFiles/cmTC_7d0a3.dir/build
+Building C object CMakeFiles/cmTC_7d0a3.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=pow -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_7d0a3.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'pow' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: 'pow' is a builtin with type 'double (double, double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+1 warning generated.
+Linking C executable cmTC_7d0a3
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d0a3.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=pow -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7d0a3.dir/CheckFunctionExists.c.o  -o cmTC_7d0a3 -lm 
+
+
+Determining if the function scalbn exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_44dc2/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_44dc2.dir/build.make CMakeFiles/cmTC_44dc2.dir/build
+Building C object CMakeFiles/cmTC_44dc2.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=scalbn -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_44dc2.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'scalbn' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS scalbn
+                              ^
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: 'scalbn' is a builtin with type 'double (double, int)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS scalbn
+                              ^
+1 warning generated.
+Linking C executable cmTC_44dc2
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44dc2.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=scalbn -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_44dc2.dir/CheckFunctionExists.c.o  -o cmTC_44dc2 -lm 
+
+
+Determining if the function sin exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_955b1/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_955b1.dir/build.make CMakeFiles/cmTC_955b1.dir/build
+Building C object CMakeFiles/cmTC_955b1.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=sin -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_955b1.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'sin' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sin
+                              ^
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: 'sin' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sin
+                              ^
+1 warning generated.
+Linking C executable cmTC_955b1
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_955b1.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=sin -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_955b1.dir/CheckFunctionExists.c.o  -o cmTC_955b1 -lm 
+
+
+Determining if the function sinf exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f492b/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f492b.dir/build.make CMakeFiles/cmTC_f492b.dir/build
+Building C object CMakeFiles/cmTC_f492b.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=sinf -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_f492b.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'sinf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sinf
+                              ^
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: 'sinf' is a builtin with type 'float (float)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sinf
+                              ^
+1 warning generated.
+Linking C executable cmTC_f492b
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f492b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=sinf -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f492b.dir/CheckFunctionExists.c.o  -o cmTC_f492b -lm 
+
+
+Determining if the function sqrt exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9a8ae/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9a8ae.dir/build.make CMakeFiles/cmTC_9a8ae.dir/build
+Building C object CMakeFiles/cmTC_9a8ae.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=sqrt -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_9a8ae.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'sqrt' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sqrt
+                              ^
+/usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: 'sqrt' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sqrt
+                              ^
+1 warning generated.
+Linking C executable cmTC_9a8ae
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a8ae.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=sqrt -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9a8ae.dir/CheckFunctionExists.c.o  -o cmTC_9a8ae -lm 
+
+
+Determining if the function iconv_open exists in the iconv passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_360e4/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_360e4.dir/build.make CMakeFiles/cmTC_360e4.dir/build
+Building C object CMakeFiles/cmTC_360e4.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=iconv_open -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_360e4.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_360e4
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_360e4.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=iconv_open -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_360e4.dir/CheckFunctionExists.c.o  -o cmTC_360e4 -liconv 
+
+
+Performing C SOURCE FILE Test HAVE_SA_SIGACTION succeeded with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_29271/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_29271.dir/build.make CMakeFiles/cmTC_29271.dir/build
+Building C object CMakeFiles/cmTC_29271.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DHAVE_SA_SIGACTION -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_29271.dir/src.c.o   -c /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_29271
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29271.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DHAVE_SA_SIGACTION -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_29271.dir/src.c.o  -o cmTC_29271 
+
+Source file was:
+
+#include <signal.h>
+
+int main()
+{
+   (void)sizeof(((struct sigaction *)0)->sa_sigaction);
+   return 0;
+}
+
+Determining if the function dlopen exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ce32b/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ce32b.dir/build.make CMakeFiles/cmTC_ce32b.dir/build
+Building C object CMakeFiles/cmTC_ce32b.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=dlopen -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_ce32b.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ce32b
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce32b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=dlopen -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ce32b.dir/CheckFunctionExists.c.o  -o cmTC_ce32b 
+
+
+Performing C SOURCE FILE Test HAVE_PTHREADS succeeded with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_43f83/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_43f83.dir/build.make CMakeFiles/cmTC_43f83.dir/build
+Building C object CMakeFiles/cmTC_43f83.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DHAVE_PTHREADS -D_THREAD_SAFE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_43f83.dir/src.c.o   -c /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_43f83
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43f83.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DHAVE_PTHREADS -D_THREAD_SAFE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_43f83.dir/src.c.o  -o cmTC_43f83 
+
+Return value: 1
+Source file was:
+
+        #include <pthread.h>
+        int main(int argc, char** argv) {
+          pthread_attr_t type;
+          pthread_attr_init(&type);
+          return 0;
+        }
+Performing C SOURCE FILE Test HAVE_RECURSIVE_MUTEXES succeeded with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f9c36/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f9c36.dir/build.make CMakeFiles/cmTC_f9c36.dir/build
+Building C object CMakeFiles/cmTC_f9c36.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DHAVE_RECURSIVE_MUTEXES -D_THREAD_SAFE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_f9c36.dir/src.c.o   -c /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f9c36
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9c36.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DHAVE_RECURSIVE_MUTEXES -D_THREAD_SAFE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f9c36.dir/src.c.o  -o cmTC_f9c36 
+
+Source file was:
+
+        #include <pthread.h>
+        int main(int argc, char **argv) {
+          pthread_mutexattr_t attr;
+          pthread_mutexattr_settype(&attr, PTHREAD_MUTEX_RECURSIVE);
+          return 0;
+        }
+Performing C SOURCE FILE Test HAVE_PTHREADS_SEM succeeded with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a0de1/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a0de1.dir/build.make CMakeFiles/cmTC_a0de1.dir/build
+Building C object CMakeFiles/cmTC_a0de1.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DHAVE_PTHREADS_SEM -D_THREAD_SAFE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_a0de1.dir/src.c.o   -c /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a0de1
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0de1.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DHAVE_PTHREADS_SEM -D_THREAD_SAFE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a0de1.dir/src.c.o  -o cmTC_a0de1 
+
+Source file was:
+#include <pthread.h>
+                                 #include <semaphore.h>
+                                 int main(int argc, char **argv) { return 0; }
+Determining if the function pthread_setname_np exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c4552/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c4552.dir/build.make CMakeFiles/cmTC_c4552.dir/build
+Building C object CMakeFiles/cmTC_c4552.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=pthread_setname_np -D_THREAD_SAFE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_c4552.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c4552
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4552.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=pthread_setname_np -D_THREAD_SAFE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c4552.dir/CheckFunctionExists.c.o  -o cmTC_c4552 
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_75444/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_75444.dir/build.make CMakeFiles/cmTC_75444.dir/build
+Building C object CMakeFiles/cmTC_75444.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_75444.dir/CheckIncludeFile.c.o   -c /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_75444
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75444.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_75444.dir/CheckIncludeFile.c.o  -o cmTC_75444 
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e0d72/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e0d72.dir/build.make CMakeFiles/cmTC_e0d72.dir/build
+Building C object CMakeFiles/cmTC_e0d72.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_e0d72.dir/CheckIncludeFile.c.o   -c /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e0d72
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0d72.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e0d72.dir/CheckIncludeFile.c.o  -o cmTC_e0d72 
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_40752/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_40752.dir/build.make CMakeFiles/cmTC_40752.dir/build
+Building C object CMakeFiles/cmTC_40752.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_40752.dir/CheckSymbolExists.c.o   -c /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_40752
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40752.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_40752.dir/CheckSymbolExists.c.o  -o cmTC_40752 
+
+File /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

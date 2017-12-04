@@ -1,0 +1,459 @@
+Performing C SOURCE FILE Test HAVE_ALTIVEC_H_HDR failed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bba1e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_bba1e.dir/build.make CMakeFiles/cmTC_bba1e.dir/build
+Building C object CMakeFiles/cmTC_bba1e.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DHAVE_ALTIVEC_H_HDR -maltivec -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_bba1e.dir/src.c.o   -c /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp/src.c
+clang: error: invalid argument '-faltivec' only allowed with 'ppc/ppc64/ppc64le'
+make[1]: *** [CMakeFiles/cmTC_bba1e.dir/src.c.o] Error 1
+make: *** [cmTC_bba1e/fast] Error 2
+
+Source file was:
+
+          #include <altivec.h>
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_ALTIVEC failed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_96745/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_96745.dir/build.make CMakeFiles/cmTC_96745.dir/build
+Building C object CMakeFiles/cmTC_96745.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DHAVE_ALTIVEC -maltivec -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_96745.dir/src.c.o   -c /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp/src.c
+clang: error: invalid argument '-faltivec' only allowed with 'ppc/ppc64/ppc64le'
+make[1]: *** [CMakeFiles/cmTC_96745.dir/src.c.o] Error 1
+make: *** [cmTC_96745/fast] Error 2
+
+Source file was:
+
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { }
+Determining if the include file malloc.h exists failed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2fb3a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2fb3a.dir/build.make CMakeFiles/cmTC_2fb3a.dir/build
+Building C object CMakeFiles/cmTC_2fb3a.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_2fb3a.dir/CheckIncludeFile.c.o   -c /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_2fb3a.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_2fb3a/fast] Error 2
+
+
+Determining if the function _strrev exists failed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fe1da/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_fe1da.dir/build.make CMakeFiles/cmTC_fe1da.dir/build
+Building C object CMakeFiles/cmTC_fe1da.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=_strrev -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_fe1da.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fe1da
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe1da.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=_strrev -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fe1da.dir/CheckFunctionExists.c.o  -o cmTC_fe1da 
+Undefined symbols for architecture x86_64:
+  "__strrev", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_fe1da] Error 1
+make: *** [cmTC_fe1da/fast] Error 2
+
+
+Determining if the function _strupr exists failed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f814b/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f814b.dir/build.make CMakeFiles/cmTC_f814b.dir/build
+Building C object CMakeFiles/cmTC_f814b.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=_strupr -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_f814b.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f814b
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f814b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=_strupr -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f814b.dir/CheckFunctionExists.c.o  -o cmTC_f814b 
+Undefined symbols for architecture x86_64:
+  "__strupr", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_f814b] Error 1
+make: *** [cmTC_f814b/fast] Error 2
+
+
+Determining if the function _strlwr exists failed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f5e42/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f5e42.dir/build.make CMakeFiles/cmTC_f5e42.dir/build
+Building C object CMakeFiles/cmTC_f5e42.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=_strlwr -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_f5e42.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f5e42
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5e42.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=_strlwr -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f5e42.dir/CheckFunctionExists.c.o  -o cmTC_f5e42 
+Undefined symbols for architecture x86_64:
+  "__strlwr", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_f5e42] Error 1
+make: *** [cmTC_f5e42/fast] Error 2
+
+
+Determining if the function itoa exists failed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_89424/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_89424.dir/build.make CMakeFiles/cmTC_89424.dir/build
+Building C object CMakeFiles/cmTC_89424.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=itoa -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_89424.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_89424
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89424.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=itoa -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_89424.dir/CheckFunctionExists.c.o  -o cmTC_89424 
+Undefined symbols for architecture x86_64:
+  "_itoa", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_89424] Error 1
+make: *** [cmTC_89424/fast] Error 2
+
+
+Determining if the function _ltoa exists failed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_240ef/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_240ef.dir/build.make CMakeFiles/cmTC_240ef.dir/build
+Building C object CMakeFiles/cmTC_240ef.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=_ltoa -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_240ef.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_240ef
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_240ef.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=_ltoa -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_240ef.dir/CheckFunctionExists.c.o  -o cmTC_240ef 
+Undefined symbols for architecture x86_64:
+  "__ltoa", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_240ef] Error 1
+make: *** [cmTC_240ef/fast] Error 2
+
+
+Determining if the function _uitoa exists failed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d1d2b/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d1d2b.dir/build.make CMakeFiles/cmTC_d1d2b.dir/build
+Building C object CMakeFiles/cmTC_d1d2b.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=_uitoa -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_d1d2b.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d1d2b
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1d2b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=_uitoa -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d1d2b.dir/CheckFunctionExists.c.o  -o cmTC_d1d2b 
+Undefined symbols for architecture x86_64:
+  "__uitoa", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_d1d2b] Error 1
+make: *** [cmTC_d1d2b/fast] Error 2
+
+
+Determining if the function _ultoa exists failed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_15555/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_15555.dir/build.make CMakeFiles/cmTC_15555.dir/build
+Building C object CMakeFiles/cmTC_15555.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=_ultoa -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_15555.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_15555
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15555.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=_ultoa -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_15555.dir/CheckFunctionExists.c.o  -o cmTC_15555 
+Undefined symbols for architecture x86_64:
+  "__ultoa", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_15555] Error 1
+make: *** [cmTC_15555/fast] Error 2
+
+
+Determining if the function _i64toa exists failed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f32f4/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f32f4.dir/build.make CMakeFiles/cmTC_f32f4.dir/build
+Building C object CMakeFiles/cmTC_f32f4.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=_i64toa -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_f32f4.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f32f4
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f32f4.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=_i64toa -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f32f4.dir/CheckFunctionExists.c.o  -o cmTC_f32f4 
+Undefined symbols for architecture x86_64:
+  "__i64toa", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_f32f4] Error 1
+make: *** [cmTC_f32f4/fast] Error 2
+
+
+Determining if the function _ui64toa exists failed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_92d21/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_92d21.dir/build.make CMakeFiles/cmTC_92d21.dir/build
+Building C object CMakeFiles/cmTC_92d21.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=_ui64toa -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_92d21.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_92d21
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92d21.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=_ui64toa -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_92d21.dir/CheckFunctionExists.c.o  -o cmTC_92d21 
+Undefined symbols for architecture x86_64:
+  "__ui64toa", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_92d21] Error 1
+make: *** [cmTC_92d21/fast] Error 2
+
+
+Determining if the function _stricmp exists failed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b817f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b817f.dir/build.make CMakeFiles/cmTC_b817f.dir/build
+Building C object CMakeFiles/cmTC_b817f.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=_stricmp -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_b817f.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b817f
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b817f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=_stricmp -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b817f.dir/CheckFunctionExists.c.o  -o cmTC_b817f 
+Undefined symbols for architecture x86_64:
+  "__stricmp", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_b817f] Error 1
+make: *** [cmTC_b817f/fast] Error 2
+
+
+Determining if the function _strnicmp exists failed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7e176/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7e176.dir/build.make CMakeFiles/cmTC_7e176.dir/build
+Building C object CMakeFiles/cmTC_7e176.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=_strnicmp -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_7e176.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7e176
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e176.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=_strnicmp -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7e176.dir/CheckFunctionExists.c.o  -o cmTC_7e176 
+Undefined symbols for architecture x86_64:
+  "__strnicmp", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_7e176] Error 1
+make: *** [cmTC_7e176/fast] Error 2
+
+
+Determining if the function fseeko64 exists failed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3ae84/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3ae84.dir/build.make CMakeFiles/cmTC_3ae84.dir/build
+Building C object CMakeFiles/cmTC_3ae84.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=fseeko64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_3ae84.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3ae84
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ae84.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=fseeko64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3ae84.dir/CheckFunctionExists.c.o  -o cmTC_3ae84 
+Undefined symbols for architecture x86_64:
+  "_fseeko64", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_3ae84] Error 1
+make: *** [cmTC_3ae84/fast] Error 2
+
+
+Performing C SOURCE FILE Test HAVE_SEM_TIMEDWAIT failed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3b04b/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3b04b.dir/build.make CMakeFiles/cmTC_3b04b.dir/build
+Building C object CMakeFiles/cmTC_3b04b.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DHAVE_SEM_TIMEDWAIT -D_THREAD_SAFE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_3b04b.dir/src.c.o   -c /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp/src.c
+/Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp/src.c:5:19: warning: implicit declaration of function 'sem_timedwait' is invalid in C99 [-Wimplicit-function-declaration]
+                  sem_timedwait(NULL, NULL);
+                  ^
+1 warning generated.
+Linking C executable cmTC_3b04b
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b04b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DHAVE_SEM_TIMEDWAIT -D_THREAD_SAFE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3b04b.dir/src.c.o  -o cmTC_3b04b 
+Undefined symbols for architecture x86_64:
+  "_sem_timedwait", referenced from:
+      _main in src.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_3b04b] Error 1
+make: *** [cmTC_3b04b/fast] Error 2
+
+Source file was:
+
+              #include <pthread.h>
+              #include <semaphore.h>
+              int main(int argc, char **argv) {
+                  sem_timedwait(NULL, NULL);
+                  return 0;
+              }
+Performing C SOURCE FILE Test HAVE_PTHREAD_SPINLOCK failed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6e963/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6e963.dir/build.make CMakeFiles/cmTC_6e963.dir/build
+Building C object CMakeFiles/cmTC_6e963.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DHAVE_PTHREAD_SPINLOCK -D_THREAD_SAFE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_6e963.dir/src.c.o   -c /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp/src.c
+/Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp/src.c:4:15: warning: implicit declaration of function 'pthread_spin_trylock' is invalid in C99 [-Wimplicit-function-declaration]
+              pthread_spin_trylock(NULL);
+              ^
+1 warning generated.
+Linking C executable cmTC_6e963
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e963.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DHAVE_PTHREAD_SPINLOCK -D_THREAD_SAFE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6e963.dir/src.c.o  -o cmTC_6e963 
+Undefined symbols for architecture x86_64:
+  "_pthread_spin_trylock", referenced from:
+      _main in src.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_6e963] Error 1
+make: *** [cmTC_6e963/fast] Error 2
+
+Source file was:
+
+          #include <pthread.h>
+          int main(int argc, char** argv) {
+              pthread_spin_trylock(NULL);
+              return 0;
+          }
+Performing C SOURCE FILE Test HAVE_PTHREAD_NP_H failed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f2b3e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f2b3e.dir/build.make CMakeFiles/cmTC_f2b3e.dir/build
+Building C object CMakeFiles/cmTC_f2b3e.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DHAVE_PTHREAD_NP_H -D_THREAD_SAFE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_f2b3e.dir/src.c.o   -c /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp/src.c
+/Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp/src.c:3:20: fatal error: 'pthread_np.h' file not found
+          #include <pthread_np.h>
+                   ^~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_f2b3e.dir/src.c.o] Error 1
+make: *** [cmTC_f2b3e/fast] Error 2
+
+Source file was:
+
+          #include <pthread.h>
+          #include <pthread_np.h>
+          int main(int argc, char** argv) { return 0; }
+Determining if the function pthread_set_name_np exists failed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2b163/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2b163.dir/build.make CMakeFiles/cmTC_2b163.dir/build
+Building C object CMakeFiles/cmTC_2b163.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -g -O3 -DCHECK_FUNCTION_EXISTS=pthread_set_name_np -D_THREAD_SAFE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_2b163.dir/CheckFunctionExists.c.o   -c /usr/local/mac-dev-env/cmake-3.9.3/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2b163
+/usr/local/mac-dev-env/cmake-3.9.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b163.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -O3 -DCHECK_FUNCTION_EXISTS=pthread_set_name_np -D_THREAD_SAFE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2b163.dir/CheckFunctionExists.c.o  -o cmTC_2b163 
+Undefined symbols for architecture x86_64:
+  "_pthread_set_name_np", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_2b163] Error 1
+make: *** [cmTC_2b163/fast] Error 2
+
+
+Determining size of off64_t failed with the following output:
+Change Dir: /Users/niko/Desktop/ips-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_572fe/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_572fe.dir/build.make CMakeFiles/cmTC_572fe.dir/build
+Building C object CMakeFiles/cmTC_572fe.dir/OFF64_T.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAVE_STDDEF_H -DHAVE_STDINT_H -DHAVE_SYS_TYPES_H -D_LARGEFILE64_SOURCE=1  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_572fe.dir/OFF64_T.c.o   -c /Users/niko/Desktop/ips-project/build/CMakeFiles/CheckTypeSize/OFF64_T.c
+/Users/niko/Desktop/ips-project/build/CMakeFiles/CheckTypeSize/OFF64_T.c:19:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/niko/Desktop/ips-project/build/CMakeFiles/CheckTypeSize/OFF64_T.c:17:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/niko/Desktop/ips-project/build/CMakeFiles/CheckTypeSize/OFF64_T.c:20:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/niko/Desktop/ips-project/build/CMakeFiles/CheckTypeSize/OFF64_T.c:17:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/niko/Desktop/ips-project/build/CMakeFiles/CheckTypeSize/OFF64_T.c:21:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/niko/Desktop/ips-project/build/CMakeFiles/CheckTypeSize/OFF64_T.c:17:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/niko/Desktop/ips-project/build/CMakeFiles/CheckTypeSize/OFF64_T.c:22:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/niko/Desktop/ips-project/build/CMakeFiles/CheckTypeSize/OFF64_T.c:17:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/niko/Desktop/ips-project/build/CMakeFiles/CheckTypeSize/OFF64_T.c:23:12: error: use of undeclared identifier 'off64_t'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/niko/Desktop/ips-project/build/CMakeFiles/CheckTypeSize/OFF64_T.c:17:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_572fe.dir/OFF64_T.c.o] Error 1
+make: *** [cmTC_572fe/fast] Error 2
+
+/Users/niko/Desktop/ips-project/build/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
